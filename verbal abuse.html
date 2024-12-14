@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verbal abuse</title>
+    <style>
+        body{
+            background:rgba(0,0,0,0.7);
+            color:white;
+        }
+      
+        h1{
+            color:gold;
+            font-weight:700;
+            margin-left:20px;
+            font-size:35px;
+            margin-top:25px;
+            flex-wrap:wrap;
+            align-items:flex-start;
+        
+        }
+        form{
+            width:400px;
+            height:350px;
+            border:1px solid;
+            display:flex;
+            justify-content: center;
+            flex-direction:column;
+            margin:auto;
+            border-radius:15px;
+            margin-top:50px;
+            background-color:rgba(255,255,0,0.4);
+            
+            
+        }
+        label{
+            margin-left:10px;
+            flex-direction:column;
+            margin-bottom:15px;
+            margin-top:20px;
+            font-size:20px;
+            color:black;
+        }
+        input{
+            width:250px;
+            height:30px;
+            margin-left:30px;
+            margin-bottom:8px;
+            border-radius:5px;
+            font-size:18px;
+            background:rgba(128,128,128,0.1);
+            color:white;
+            font-weight:300;
+        }
+        button{
+            width:150px;
+            height:40px;
+            margin:auto;
+            margin-top:30px;
+            border-radius:5px;
+            background:gray;
+            color:white;
+            font-size:20px;
+            font-weight:1200;
+            margin-bottom:40px;
+            cursor:pointer;
+        }
+        button:hover{
+            color:black;
+            background:white;
+            font-weight:1200;
+        }
+        h3{
+            margin:auto;
+            margin-top:10px;
+            font-size:30px;
+            color:white;
+        }
+        .pic{
+            width:90%;
+            height:350px;
+            margin:auto;
+            /* margin-left:80px; */
+            border-radius:15px;
+            transition:transform 0.5s ease-in-out;
+            margin-left:30px;
+
+        }
+        .pic:hover{
+           transform:scale(1.1)
+        }
+        p{
+            line-height:1.5;
+            font-size:17px;
+            margin-left:10px;
+           
+        }
+        .imptext{
+            padding-top:20px;
+            font-size:26px;
+            color:crimson;
+            font-weight:500;
+
+        }
+
+        .navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background-color:black;
+}
+.navbar .links a{
+    text-decoration:none;
+    text-transform:uppercase;
+    color:white;
+}
+.navbar .links{
+    display:flex;
+    gap:30px;
+}
+.navbar .links a:hover{
+    color:yellow;
+}
+.navbar .button .loginbtn {
+    width:70px;
+    height:35px;
+    margin-left:20px;
+    border-radius:12%;
+    cursor:pointer;
+    background-color:rgba(255,255,0,0.6);
+}
+.navbar .button .loginbtn a{
+    text-decoration:none;
+    font-size:1rem;
+    color:black;
+}
+.navbar .button .loginbtn:hover{
+    background-color:yellow;
+}
+.navbar .button i{
+    width:20px;
+    height:20px;
+}
+
+.dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: gray;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 10;
+    min-width: 150px;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 10px 15px;
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  /* Show dropdown on hover */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    background:gray;
+  }
+       
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo women-Photoroom.png" alt="logo" width="110" height="110">
+        </div>
+        <div class="links">
+                    <a href="index.html">Home</a>
+                    <a href="aboutus.html">About us</a>
+                    <div class="dropdown">
+                        <a href="#Report" class="dropdown-toggle">Report Us</a>
+                        <div class="dropdown-menu">
+                            <a href="verbal abuse.html">Verbal abuse</a>
+                            <a href="sexualharras.html">Sexual Harassment</a>
+                            <a href="#Bullying">Bullying</a>
+                            <a href="#Cyber harrasement">Cyber harrasement</a>
+                            <a href="#Discrimination">Discrimination</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <a href="#Support Resources" class="dropdown-toggle">Support Resources</a>
+                        <div class="dropdown-menu">
+                            <a href="contact.html">Contact</a>
+                            <a href="emergency.html">Emergency Helpline</a>
+                        </div>
+                    </div>
+        </div>
+        <div class="button">
+            <button class="loginbtn"><a href="loginpage.html">Login</a></button>
+            <a href="registration.html"><i class="fas fa-user" style="font-size:25px;color:rgba(255,255,0,0.7); margin-left:12px;margin-top:10px;cursor:pointer;"></i></a>
+        </div>
+    </div>
+    <!--navbar ends-->
+    <h1>Verbal abuse</h1>
+   <img class="pic" src="data:image/jpeg;base64,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">
+   <p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Verbal abuse is a harmful form of emotional and psychological harm where words are used to manipulate, control, or hurt another person. It can occur in personal relationships, workplaces, schools, or online, often taking forms like name-calling, criticism, threats, or gaslighting. The effects of verbal abuse are significant, leading to low self-esteem, anxiety, depression, and strained social relationships. It may also indirectly cause physical issues like sleep disturbances or weakened immunity. Recognizing abuse, setting boundaries, seeking support, and prioritizing self-care are essential steps in addressing it. Providing empathy and encouraging professional help can also make a difference for those experiencing verbal abuse.
+   </p>
+   <marquee><p class="imptext">&nbsp;&nbsp;&nbsp;&nbsp;Please enter the details to higher authorities.</p></marquee>
+    
+   <form id="detailsform" action="/submit" method="POST">
+    <h3>Details to send</h3>
+    <label for="phone">Phone number:</label>
+    <input type="text" id="phone" placeholder="Enter your phone number" required>
+    <label for="email">Email:</label>
+    <input type="text" id="email" placeholder="Enter your email" required>
+    <label for="location">Location:</label>
+    <input type="text" id="location" placeholder="Enter your current location" required>
+   <button>Submit</button>
+
+
+   </form >
+   <div id="notification" style="display: none;">Details submitted successfully!</div>
+
+   <script>
+    document.getElementById('detailsform').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent form from submitting the default way
+
+    var phone = document.getElementById('phone').value;
+    var location = document.getElementById('location').value;
+
+    var formData = new FormData();
+    formData.append('phone', phone);
+    formData.append('location', location);
+
+    fetch('http://localhost:3000/submit', { // Replace with your backend endpoint
+        method: 'POST',
+        body: formData
+    })
+    .then(response => {
+        if (!response.ok) throw new Error('Network response was not ok');
+        document.getElementById('notification').style.display = 'block'; // Show notification on success
+    })
+    .catch(error => console.error('Error:', error));
+});
+
+   </script>
+    
+</body>
+</html>
+
+
+
+ 

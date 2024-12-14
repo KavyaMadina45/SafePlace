@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background:gray;
+            color:white;
+        }
+        h2{
+            text-align:center;
+            color:gold;
+            font-size:34px;
+            font-weight:800;
+        }
+         .pic{
+            width:350px;
+            height:350px;
+            margin-left:15px;
+            border-radius:15px;
+            margin-right:20px;
+            float:left;
+            margin-bottom:15px;
+        }
+         p{
+            margin-left:20px;
+            line-height:1.5;
+            font-size:20px;
+
+        }
+
+        .navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background-color:black;
+    height:100px;
+}
+.navbar .links a{
+    text-decoration:none;
+    text-transform:uppercase;
+    color:white;
+}
+.navbar .links{
+    display:flex;
+    gap:30px;
+}
+.navbar .links a:hover{
+    color:yellow;
+}
+.navbar .button .loginbtn {
+    width:70px;
+    height:35px;
+    margin-left:20px;
+    border-radius:12%;
+    cursor:pointer;
+    background-color:rgba(255,255,0,0.6);
+}
+.navbar .button .loginbtn a{
+    text-decoration:none;
+    font-size:1rem;
+    color:black;
+}
+.navbar .button .loginbtn:hover{
+    background-color:yellow;
+}
+.navbar .button i{
+    width:20px;
+    height:20px;
+}
+
+.dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: gray;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 10;
+    min-width: 150px;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 10px 15px;
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  /* Show dropdown on hover */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    background:gray;
+  }
+  img{
+    height:90px;
+    width:130px;
+    background:none;
+  }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo women-Photoroom.png" alt="logo" width="110" height="110">
+        </div>
+        <div class="links">
+                    <a href="index.html">Home</a>
+                    <a href="aboutus.html">About us</a>
+                    <div class="dropdown">
+                        <a href="#Report" class="dropdown-toggle">Report Us</a>
+                        <div class="dropdown-menu">
+                            <a href="verbal abuse.html">Verbal abuse</a>
+                            <a href="sexualharras.html">Sexual Harassment</a>
+                            <a href="bullying.html">Bullying</a>
+                            <a href="#Cyber harrasement">Cyber harrasement</a>
+                            <a href="#Discrimination">Discrimination</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <a href="#Support Resources" class="dropdown-toggle">Support Resources</a>
+                        <div class="dropdown-menu">
+                            <a href="contact.html">Contact</a>
+                            <a href="emergency.html">Emergency Helpline</a>
+                        </div>
+                    </div>
+        </div>
+        <div class="button">
+            <button class="loginbtn"><a href="loginpage.html">Login</a></button>
+            <a href="registration.html"><i class="fas fa-user" style="font-size:25px;color:rgba(255,255,0,0.7); margin-left:12px;margin-top:10px;cursor:pointer;"></i></a>
+        </div>
+    </div>
+    <!--navbar ends-->
+    <h2>SAFE PLACE</h2>
+    <img class="pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpVSKllcA3Fn73LgdVXe2GtO1ipk8E7kHXqg&s">
+        <p>A safe space is an environment where individuals feel secure, respected, and free from judgment, harassment, or discrimination. It provides a supportive atmosphere where people can openly share their experiences, emotions, or concerns without fear of reprisal or ridicule.
+
+            Safe spaces are often created to address sensitive issues such as harassment, abuse, or mental health struggles. Key elements include confidentiality, empathy, and a non-judgmental attitude. These spaces can exist physically (like a counseling center or designated room) or digitally (like online forums or helplines). They are facilitated by trained professionals or supportive peers who provide emotional support, guidance, and resources.
+            
+            For victims of harassment, a safe space can be a crucial step toward healing, offering a sense of empowerment, validation, and the ability to regain trust. It also fosters open communication and encourages individuals to seek help and take action against injustice in a protected and understanding environment.
+            </p>
+
+</body>
+</html>

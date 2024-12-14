@@ -1,0 +1,22 @@
+{
+    "name": "Safe",
+    "short_name": "Safe",
+    "description": "Empowering Women, Ensuring Safety",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#007BFF",
+    "icons": [
+      {
+        "src": "logo-women-Photoroom.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "logo-women-Photoroom.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
